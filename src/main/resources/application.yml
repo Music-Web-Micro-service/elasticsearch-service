@@ -1,0 +1,28 @@
+elasticsearch:
+  rest:
+    uris: localhost:9200
+    username: elastic
+    password: 3uhCe7o8GobRMp2TzUtX
+  repositories:
+    enabled: true
+
+server:
+  port: 8090
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8061/eureka
+
+spring:
+  application:
+    name: elastisearchservice
+  rabbitmq:
+    host: 192.168.56.105
+    port: 5672
+    username: guest
+    password: guest
+    virtualHost: /
+
+
+
